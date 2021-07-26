@@ -1,9 +1,6 @@
 name: Publish
 
-on:
-  release:
-    types:
-      - created
+on: [push, pull_request]
 
 jobs:
   publish:
